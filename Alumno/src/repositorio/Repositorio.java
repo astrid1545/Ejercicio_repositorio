@@ -5,6 +5,8 @@
  */
 package repositorio;
 
+import java.util.Scanner;
+
 /**
  *
  * @author APRENDIZ
@@ -15,7 +17,9 @@ public class Repositorio {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+     Scanner teclado=new Scanner(System.in);
+     Caminar ca=new Caminar();
+     ca.caminar();
     }
     
 }
